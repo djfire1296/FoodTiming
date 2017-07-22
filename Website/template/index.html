@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Food Timing 好食季</title>
+
+
+    {% load static %}
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'template_style/css/bootstrap.css' %}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{% static 'template_style/css/style.css' %}" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+      <!-- logo -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">好食季</a>
+        </div>
+        <!-- 導覽列 -->
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">首頁</a></li>
+            <li><a href="#about">當季食物</a></li>
+            <li><a href="#works">推薦食物</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+	<div id="headerwrap">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h1>Food Timing </h1>
+					<h2>好食季</h2>
+				<div class="flexsearch--input-wrapper">
+					<input class="flexsearch--input " type="search" placeholder="search">
+				</div>
+					<a href="#about" class="btn btn-primary btn-xl page-scroll">了解更多</a>
+				</div>
+			</div>
+	    </div> <!-- /container -->
+	</div>
+	
+	<section id="about"></section>
+	<div class="container">
+		<div class="row centered mt mb">
+			<h1>當季食物</h1>
+			
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="{% static 'template_style/img/portfolio/folio01.png' %}" 
+					class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="{% static 'template_style/img/portfolio/folio02.png' %}" 
+					class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="{% static 'template_style/img/portfolio/folio03.png' %}" 
+					class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="{% static 'template_style/img/portfolio/folio04.png' %}" 
+					class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="{% static 'template_style/img/portfolio/folio05.png' %}" 
+					class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="work.html"><img src="{% static 'template_style/img/portfolio/folio06.png' %}" 
+					class="img-responsive"></a>
+			</div>
+		</div><!-- /row -->
+	</div><!-- /container -->
+	
+
+	<div id="footerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-3">
+				</div>
+			
+				<div class="col-lg-6">
+				<h2>好食季團隊</h2>
+				<h4> Co-working, Co-creating</h4>
+			
+				</div>
+				<div class="col-lg-3">
+				</div>
+			</div>
+		</div>
+	</div><!-- /footerwrap -->
+	
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{% static 'template_style/js/jquery.min.js' %}"></script>
+    <script src="{% static 'template_style/js/bootstrap.min.js' %}"></script>
+  </body>
+</html>
