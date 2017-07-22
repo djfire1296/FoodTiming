@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 /*https://codepen.io/menzer/pen/geAto*/
-#headerwrap > div > div > div > div > input{
+#headerwrap > div > div > div > form> div > input{
 	color: #fff;
 	padding-left: 1em;
 	background-color: transparent ;
@@ -185,37 +185,19 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #fff;
 }
 
-#workwrap {	
-	background: url(../img/work.jpg) no-repeat center top;
-/*	margin-top: -70px;
-	padding-top: 250px;*/
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+/* Vision */
+.Vision{
+  background-color: #9FDFFD ; 
 }
 
-#workwrap h1 {
-	color:#ffffff;
-	letter-spacing: 4px;
-	font-size: 80px;
-	font-weight: bold;
-}
+.light {
+    width:4em;
+    border:2px solid #fff;  
+    margin-right:auto;
+    margin-left:auto;
+    background-color: #fff;
 
-#workwrap h4 {
-	font-weight: 400;
-	color: #ffffff
 }
 
 
@@ -237,4 +219,18 @@ h1, h2, h3, h4, h5, h6 {
 #footerwrap p {
 	color: #f2f2f2;
 	margin-left: 10px;
+}
+
+.img-responsive{
+  margin-top: 1em; 
+    width: 100%;
+    max-width: 125px;
+    border-radius: 100%;
+
+}
+
+.bg-success {
+
+  background-color: #eeeeee;
+
 }
