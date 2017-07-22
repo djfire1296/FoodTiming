@@ -77,24 +77,29 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: transparent;
 	border-color: transparent;
   position: fixed;
-    background: rgba(60,50,70,0.5);
+    background: #283445;
   height: 10vh;
 }
 
 /*導覽列*/
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
-.navbar-default .navbar-nav > .active > a:focus {
-	color: #ffffff;
-	border-bottom: 3px solid #1abc9c
-	margin:10em;
-  height: 10vh;
-}
-
 .navbar-default .navbar-nav > li > a {
-	color: #ffffff;
+  color: #C6577C ;
 	font-size: 2.5em;
 }
+
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff ;
+  border-bottom: 3px solid #C6577C;
+}
+
+.navbar-default .navbar-nav > li >.active > a:hover {
+ 
+  border-bottom: 3px solid #C6577C;
+}
+
+
+
 
 /* ==========================================================================
    Wrap Sections
@@ -146,4 +151,13 @@ border-color: #FED606;
 
 }
 
+.h2{
 
+  margin-top: 3em; 
+
+}
+
+.h3{
+  margin-top: 4em; 
+
+}
